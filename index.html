@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Orbitron|Press+Start+2P|Stylish&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>ColorPicker Game v1.0 (Beta)</title>
+</head>
+
+
+<body>
+
+    <div id="head" class="jumbotron text-center jumbotron-fluid mb-0">
+        <div class="container">
+            <h1>THE GREAT</h1>
+            <h1 class="display-4">RGB (<span id="redVal"></span>, <span id="greenVal"></span>, <span
+                    id="blueVal"></span>)</h1>
+            <h1>GUESSING GAME</h1>
+        </div>
+    </div>
+
+    <!-- //////////////////////////////////////////// -->
+
+    <nav class="navbar navbar-expand navbar-light bg-light p-0">
+        <ul class="navbar-nav m-auto">
+            <li id="newColor" class="nav-item"><a href="#" class="nav-link py-0">NEW CHOICES</a></li>
+            <li id="newGame" class="nav-item"><a href="#" class="nav-link py-0">NEW GAME</a>
+            </li>
+            <li id="easy" class="nav-item" clicked><a href="#" id="easyLink" class="nav-link py-0">EASY</a>
+            </li>
+            <li id="hard" class="nav-item"><a href="#" id="hardLink" class="nav-link py-0">HARD</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- //////////////////////////////////////////// -->
+
+    <div class="container">
+        <div class="row m-5 p-0">
+            <div id="col1" class="col-md-4 col-sm-6 p-0">
+                <div class="square">1</div>
+            </div>
+            <div id="col2" class="col-md-4 col-sm-6 p-0">
+                <div class="square">2</div>
+            </div>
+            <div id="col3" class="col-md-4 col-sm-6 p-0">
+                <div class="square">3</div>
+            </div>
+            <div id="col4" class="col-md-4 col-sm-6 p-0">
+                <div class="square">4</div>
+            </div>
+            <div id="col5" class="col-md-4 col-sm-6 p-0">
+                <div class="square">5</div>
+            </div>
+            <div id="col6" class="col-md-4 col-sm-6 p-0">
+                <div class="square">6</div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <p style="color: white; font-family: 'Courgette', cursive;" class="lead">Made with <span style="color: tomato;"><i class="fas fa-heart"></i></span> by Suyash</p>
+            <p style="color: wheat; font-family: 'Stylish', sans-serif;">This site is purely made using HTML5, CSS3, Bootstrap4.3 and
+                JavaScriptES6. Thanks to VisualStudio Code IDE, GoogleFonts and FontAwesome Icon Packs.</p>
+        </div>
+    </div>
+
+
+
+    <!-- //////////////////////////////////////////// -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
